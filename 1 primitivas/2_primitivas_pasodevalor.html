@@ -16,16 +16,22 @@
         var color2 = color1; <br/>
         color1 = "blue"<br/>
         console.log(color1); // blue<br>
-        // tal vez espera que colo2 haya cambiado a blue, pero no! <br>
+        // tal vez esperas que color2 haya cambiado a blue, pero no! <br>
         console.log(color2); // red<br>
-    
+    </code>
     
 </div>
 </div>
 
 <script>
    
-    // JS CODE
+    var color1 = "red";
+    var color2 = color1;
+    color1 = "blue";
+
+    console.log(color1); 
+    // tal vez esperas que color2 haya cambiado a blue, pero no! <br>
+    console.log(color2); 
     
 </script>
 
